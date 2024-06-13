@@ -56,5 +56,5 @@ jobs:
         with:
           task-definition: ${{ steps.task-def.outputs.task-definition }}
           service: spring-boot-custom-exception-valiation-service
-          cluster: DevCluster2
+          cluster: spring-aws
           wait-for-service-stability: true
